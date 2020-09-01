@@ -1,7 +1,6 @@
 #mainMenu {
     list-style: none;
-    font-family: sans-serif;
-    padding-left: 20em;
+    
 }
 
 #mainMenu li {
@@ -10,13 +9,19 @@
     margin-left: 2px;
 }
 
+body {
+    font-family: "Helvetica", "Arial", sans-serif;
+    margin: 0 auto;
+    max-width: 50em;
+    line-height: 1.5;
+    padding: 4em 1em;
+    color: #555;
+}
 
-main {
-    color: black;
-    display: block;
-    padding-top: 50px;
-    padding-left: 20em;
-    padding-right: 20em;
+h1, h2 {
+    margin-top: 1em;
+    padding-top: 1em;
+    color: #333;
 }
 
 footer {
@@ -26,7 +31,7 @@ footer {
     height: 2em; 
     text-align: center;
     /* background-color: #89F0FF; */
-    padding-left: 20em;
+    
 }
 
 footer p {
