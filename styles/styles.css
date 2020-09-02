@@ -39,3 +39,11 @@ footer p {
     margin: 2px;
     width: 300px;
 }
+
+.box {
+    border: 10px solid #89F0FF;
+    border-radius: 1em;
+    border-top-right-radius: 10% 30%;
+    margin-top: 1em;
+    padding-left: 1em;
+}
