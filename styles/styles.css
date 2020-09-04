@@ -1,3 +1,23 @@
+header {
+	background-color: #f51325;
+	padding: 2em;
+	text-align: center;
+	font-size: 30px;
+}
+
+header a:link, a:visited {
+	color: #ffffff;
+	
+}
+
+a {
+	text-decoration: none;
+}
+
+footer a {
+	color: #ffffff;
+}
+
 #mainMenu {
     list-style: none;
     
@@ -29,23 +49,28 @@ footer {
     bottom: 0;
     width: 50em;
     text-align: center;
-    background-color: #89F0FF;
+    /* background-color: #89F0FF; */
+	background-color: #f51325;
+	display: flex;
     
 }
 
 footer p {
-    float: left;
     margin: 2px;
     padding-left: 2em;
     padding-bottom: 0.5em;
     padding-top: 0.5em;
+	color: #ffffff;
     
 }
 
 .box {
-    border: 10px solid #89F0FF;
+    border: 10px solid #f51325;
     border-radius: 1em;
     border-top-right-radius: 10% 30%;
     margin-top: 1em;
     padding-left: 1em;
+	
 }
+
+
