@@ -5,7 +5,7 @@ header {
 	font-size: 30px;
 }
 
-header a:link, a:visited {
+header a{
 	color: #ffffff;
 	
 }
