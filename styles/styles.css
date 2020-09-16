@@ -2,31 +2,42 @@
    punainen väri: #f51325
 */
 
+/* nyt header ja footer ei ole responsiivisia */
+
 header {
-	padding: 2em;
-	text-align: center;
-	font-size: 30px;
+	padding-top: 5em;
+	padding-left: 10em;
+	padding-bottom: 5em;
 	display: flex;
 }
 
-header a, footer a{
-	color: #000000;
-	
+header a {
+	color: #000000;	
+}
+
+#pagetitle {
+	font-size: 50px;
+	/*border: 5px solid #000000;
+    border-radius: 1em;
+    border-top-right-radius: 10% 30%;
+    padding: 1em; */
 }
 
 a {
 	text-decoration: none;
 }
 
-#mainMenu {
-    list-style: none;
-    
+nav ul {
+	display: flex;
+	margin-left: 10rem;
 }
 
-#mainMenu li {
-    width: 120px;
-    float: left;
-    margin-left: 2px;
+nav li {
+    /*width: 120px; */
+	list-style: none;
+	padding-left: 5rem;
+	font-size: 30px;
+		
 }
 
 main {
@@ -60,7 +71,7 @@ footer p {
 }
 
 .box {
-    border: 10px solid #f51325;
+    border: 10px solid #89F0FF;
     border-radius: 1em;
     border-top-right-radius: 10% 30%;
     margin-top: 1em;
