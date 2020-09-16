@@ -8,7 +8,9 @@ header {
 	padding-top: 5em;
 	padding-left: 10em;
 	padding-bottom: 5em;
+	padding-right: 5em;
 	display: flex;
+	flex-wrap: wrap;
 }
 
 header a {
@@ -17,6 +19,7 @@ header a {
 
 #pagetitle {
 	font-size: 50px;
+	flex: 1;
 	/*border: 5px solid #000000;
     border-radius: 1em;
     border-top-right-radius: 10% 30%;
@@ -29,7 +32,9 @@ a {
 
 nav ul {
 	display: flex;
+	flex-wrap: wrap;
 	margin-left: 10rem;
+	flex: 1;
 }
 
 nav li {
