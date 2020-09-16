@@ -1,21 +1,21 @@
+/* ihana väri, ota talteen: #89F0FF
+   punainen väri: #f51325
+*/
+
 header {
-	background-color: #f51325;
 	padding: 2em;
 	text-align: center;
 	font-size: 30px;
+	display: flex;
 }
 
-header a{
-	color: #ffffff;
+header a, footer a{
+	color: #000000;
 	
 }
 
 a {
 	text-decoration: none;
-}
-
-footer a {
-	color: #ffffff;
 }
 
 #mainMenu {
@@ -29,7 +29,7 @@ footer a {
     margin-left: 2px;
 }
 
-body {
+main {
     font-family: "Helvetica", "Arial", sans-serif;
     margin: 0 auto;
     max-width: 50em;
@@ -44,12 +44,8 @@ h1, h2, h3,h4 {
 }
 
 footer {
-    /* position: absolute;
-    bottom: 0; */
     width: 50em;
-    text-align: center;
     /* background-color: #89F0FF; */
-	background-color: #f51325;
 	display: flex;
 	margin-top: 2em;
     
@@ -60,7 +56,6 @@ footer p {
     padding-left: 2em;
     padding-bottom: 0.5em;
     padding-top: 0.5em;
-	color: #ffffff;
     
 }
 
